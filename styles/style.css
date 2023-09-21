@@ -10,6 +10,18 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   padding: 0;
 }
 
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .content-section {
   box-sizing: border-box;
   width: 360px;
@@ -71,7 +83,20 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cover {
-  padding: 7px 0 0 20px;
+  background-image: url('../images/cover.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7px 24px 0 20px;
+}
+
+.cover__title {
+  color: #FFF;
+  font-family: EB Garamond;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  /* 72px */
 }
 
 .intro {
