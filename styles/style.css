@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   width: 100%;
 }
 
-.header__menu {}
+/* .header__menu {} */
 
 .header__menu-list {
   display: flex;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   border-radius: 30px;
 }
 
-.card_text-only {}
+/* .card_text-only {} */
 
 .card_theme_dark {
   background: #343434;
