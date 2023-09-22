@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #1E1E1E;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
+  background-color: #1E1E1E;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
@@ -29,37 +29,37 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section_theme_dark {
-  background-color: #131313;
   color: #F5F5F5;
+  background-color: #131313;
 }
 
 .content-section_theme_bright {
-  background-color: #FEE42A;
   color: #131313;
+  background-color: #FEE42A;
 }
 
 .content-section__subtitle {
+  /* 32.2px */
+  margin-bottom: 32px;
   /* цвет наследуется из темы */
   /* color: #131313; */
   font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: 500;
   font-size: 28px;
   font-style: normal;
-  font-weight: 500;
   line-height: 115%;
-  /* 32.2px */
-  margin-bottom: 32px;
 }
 
 .content-section__introduction {
+  /* 135% */
+  margin-bottom: 32px;
   /* цвет наследуется из темы */
   /* color: #131313; */
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: 27px;
-  /* 135% */
-  margin-bottom: 32px;
 }
 
 .content-section__list {
@@ -72,9 +72,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .content-section__list-item {
   color: #131313;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 21.6px;
 }
 
@@ -89,8 +89,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .header__logo {
-  width: 80px;
   align-self: flex-start;
+  width: 80px;
 }
 
 .header__logo-image {
@@ -118,27 +118,27 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .header__menu-link {
   color: #F5F5F5;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 19.2px;
   /* 120% */
   text-decoration: none;
 }
 
 .cover {
+  padding: 7px 24px 0 20px;
   background-image: url('../images/cover.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 7px 24px 0 20px;
 }
 
 .cover__title {
   color: #FFF;
   font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: 400;
   font-size: 72px;
   font-style: normal;
-  font-weight: 400;
   line-height: 100%;
   /* 72px */
 }
@@ -155,9 +155,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .intro__title {
   color: #CCCCCC;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 120%;
   /* 19.2px */
 }
@@ -165,23 +165,23 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .intro__date {
   color: #CCCCCC;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 120%;
   /* 19.2px */
   white-space: nowrap;
 }
 
 .intro__main-text {
-  color: #F5F5F5;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21.6px;
   /* 135% */
   margin-bottom: 24px;
+  color: #F5F5F5;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 21.6px;
 }
 
 .intro__main-text:last-child {
@@ -197,27 +197,27 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cards-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  list-style: none;
 }
 
 .card {
-  padding: 20px;
   border-radius: 30px;
+  padding: 20px;
 }
 
 /* .card_text-only {} */
 
 .card_theme_dark {
-  background: #343434;
   color: #F5F5F5;
+  background: #343434;
 }
 
 .card_theme_bright {
-  background: #FEE42A;
   color: #131313;
+  background: #FEE42A;
 }
 
 .card__author {
@@ -233,9 +233,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .card__author-name {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
   line-height: 135%;
   /* 21.6px */
 }
@@ -248,52 +248,52 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .card__title {
   font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: 500;
   font-size: 22px;
   font-style: normal;
-  font-weight: 500;
   line-height: 135%;
   /* 29.7px */
 }
 
 .card__text {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 21.6px;
   /* 135% */
 }
 
 .footer {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #FEE42A;
+  padding: 20px;
 }
 
 .footer__copy {
   color: #F5F5F5;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 135%;
   /* 21.6px */
 }
 
 .footer__links {
   display: flex;
-  list-style: none;
   column-gap: 16px;
+  list-style: none;
 }
 
 .footer__link {
-  text-decoration: none;
   color: #F5F5F5;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
   line-height: 125%;
+  text-decoration: none;
   /* 17.5px */
 }
